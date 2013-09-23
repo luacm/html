@@ -1,7 +1,7 @@
 # HTML
 So, you want to make websites? You've come to the right place! The first stop on your way to being a web developer is HTML.
 
-# What is HTML?
+## What is HTML?
 First things first: HTML is not a programming language. It's what's known as a 'markup language.' That means it is used to describe how things are structured, not how they function. HTML actually stands for 'Hyper-Text Markup Language.' 
 
 HTML is the first part of what we'll call the 'Web Trifecta.' The Web Trifecta is made up of:
@@ -21,3 +21,29 @@ HTML accomplishes this by using *tags*. What's a tag? Well, it looks something l
 The ```<p>``` thing is what's known as a paragraph tag, and it says that everything inside it represents a paragraph of text. The tag is terminated by a tag has the same name, but has a ```/``` in front. In this case, the terminating tag is ```</p>```. So, this says we have a paragraph with the contents ```With great power, comes great responsibility.```
 
 There are lots of tags, and HTML is basically just a collection of them. Most of this guide will be describing a bunch of tags and enforcing good style when writing HTML.
+
+## A General HTML Template
+When it comes to making a website, you always want to start with a template similar to this:
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Peter Parker</title>
+  </head>
+  <body>
+    <p>Welcome to my WEB site.</p>
+  </body>
+</html>
+```
+
+So, the first thing you'll notice is that there's lots of tags, and there's tags within tags. We'll go through each fo the tags, so no need to worry about that. As far as the nested tags are concerned, it's easy to follow just by looking at where each tag starts and ends. Most people use indentation to indicate where a tag starts and ends as well (and you should too!) so that makes it even easier.
+
+So, let's go through each tag.
+
+* ```<!DOCTYPE html>```: This tells the browser that you're going to be giving it HTML content. You'll find that most websites will work just fine without this, but occasionally omitting it will break some things, so be sure to always include it.
+* ```<html></html>```: Indicates the start and end of the HTML content. Everything goes inside this tag.
+* ```<head></head>```: Contains the header info of the site. This isn't visible to the user. You can specify the title here. When we get to CSS, we'll be linking in stylesheets here. 
+* ```<title></title>```: The title of the page. This is the text that shows up on the tab label.
+* ```<body></body>```: All visible content of the site goes in the body of the page.
+* ```<p></p>```: A paragraph of text.
