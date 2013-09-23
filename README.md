@@ -100,3 +100,15 @@ Ah yes, those little blue links, how could we ever forget those? Links let you m
 ```
 
 So, we've learned two things here: one, the link tag is ```<a>``` (which stands for 'anchor'), and two, apparently you can put other stuff in the tag too. In this case, we have a property called ```href``` in there. ```href``` tells us what the link points to. In this case, it points to the best Wikipedia page ever written.
+
+
+### Generic Blocks of Text
+There may be a point when you realize that you have text whose semantics can't be properly captured with an existing tag. In this case, you can use the ```<div>``` tag or the ```<span>``` tag.
+
+```HTML
+<div>I'm pretty generic.</div>
+<span>Yeah, me too.</span>
+```
+
+You may wonder why you would use a generic tag like this, and what the differences are between ```<div>``` and ```<span>```. Don't worry, all will be made clear in our CSS guide. 
+
