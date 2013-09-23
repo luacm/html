@@ -92,5 +92,7 @@ So there's two new tags here, ```<ol>``` and ```<li>```. The ```<ol>``` tag indi
 </ul>
 ```
 
+### Links!
+Ah yes, those little blue links, how could we ever forget those? Links let you move between web pages. Here's an example of a link that will take you to an awesome web page.
 
 
