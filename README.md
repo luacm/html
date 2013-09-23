@@ -51,6 +51,20 @@ So, let's go through each tag.
 ## Poppin' Tags
 HTML is all about tags, so let's just run through a bunch.
 
+### Headings!
+Headings in HTML are just like headings in Word or Google Docs: They give titles to sections of content. Here are some examples:
+
+```HTML
+<h1>The most important section!</h1>
+<h2>Almost the most important!</h2>
+<h3>This section is pretty cool.</h3>
+<h4>Eh, you could skip over me.</h4>
+<h5>I'm not useful at all.</h5>
+<h6>Why am I even here?</h6>
+```
+
+Here, you can see that heading tags range from ```<h1>``` to ```<h6>```, with ```<h1>``` being the most important. Notice I say 'most important' and not 'biggest' or 'boldest.' Remember, HTML conveys the semantics and structure of a page, not its appearance. We can make headings look however we want with CSS when we get there.
+
 ### Lists!
 A list is just a group of related items. There's two types: ordered, and unorderd. In ordered lists, the order of the items matters. Here's an example of an ordered list:
 
