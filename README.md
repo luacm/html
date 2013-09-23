@@ -47,3 +47,36 @@ So, let's go through each tag.
 * ```<title></title>```: The title of the page. This is the text that shows up on the tab label.
 * ```<body></body>```: All visible content of the site goes in the body of the page.
 * ```<p></p>```: A paragraph of text.
+
+## Poppin' Tags
+HTML is all about tags, so let's just run through a bunch.
+
+### Lists!
+A list is just a group of related items. There's two types: ordered, and unorderd. In ordered lists, the order of the items matters. Here's an example of an ordered list:
+
+```HTML
+<h1>How to Become Spider-Man</h1>
+<ol>
+  <li>Go on a school fieldtrip.</li>
+  <li>Get bit by a radioactive spider.</li>
+  <li>Have a life-altering event that shows you the importance of using your powers for the benefit of others.</li>
+  <li>Become Spider-Man.</li>
+</ol>
+```
+
+So there's two new tags here, ```<ol>``` and ```<li>```. The ```<ol>``` tag indicates that it's an ordered list. The ```<li>``` indicates an item in that list. Simple right? Now what if we wanted to do an unorderd list, where the order of our items doesn't matter? We just have to replace the ```<ol>``` tag with an ```<ul>``` tag, like so:
+
+```HTML
+<h1>The Sinister Six</h1>
+<ul>
+  <li>Doctor Octopus</li>
+  <li>Vulture</li>
+  <li>Electro</li>
+  <li>Shocker</li>
+  <li>Mysterio</li>
+  <li>Kraven</li>
+</ul>
+```
+
+
+
