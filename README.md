@@ -51,6 +51,20 @@ So, let's go through each tag.
 ## Poppin' Tags
 HTML is all about tags, so let's just run through a bunch.
 
+### Emphasis!
+There are two tags that provide different kinds of emphasis in HTML: ```<strong>``` and ```<em>```. 
+
+```HTML
+<p>
+  This is my <strong>gift</strong>; My <em>curse</em>. Who am I?
+</p>
+<p>
+  I'm <strong><em>Spider-Man</em></strong>.
+</p>
+```
+
+Now, the default way the browser renders the ```<strong>``` tag is to make the text bold, and the default way it renders the ```<em>``` tag is to make the text italic. However, that's not the point of HTML. Always remember that HTML defines semantics, **not** appearance. Using CSS, we can make the ```<em>``` tag look however we want. When writing the HTML, we are just indicating that the text has emphasis - **not** how that emphasis is conveyed visually.
+
 ### Headings!
 Headings in HTML are just like headings in Word or Google Docs: They give titles to sections of content. Here are some examples:
 
