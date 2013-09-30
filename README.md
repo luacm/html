@@ -116,7 +116,7 @@ Ah yes, those little blue links, how could we ever forget those? Links let you m
 So, we've learned two things here: one, the link tag is ```<a>``` (which stands for 'anchor'), and two, apparently you can put other stuff in the tag too. In this case, we have a property called ```href``` in there. ```href``` tells us what the link points to. In this case, it points to the best Wikipedia page ever written.
 
 
-### Generic Blocks of Text
+### Generic Blocks of Text!
 There may be a point when you realize that you have text whose semantics can't be properly captured with an existing tag. In this case, you can use the ```<div>``` tag or the ```<span>``` tag.
 
 ```HTML
@@ -126,6 +126,31 @@ There may be a point when you realize that you have text whose semantics can't b
 
 You may wonder why you would use a generic tag like this, and what the differences are between ```<div>``` and ```<span>```. Don't worry, all will be made clear in our CSS guide. 
 
+### Form Elements!
+Need to have the user input data? Forms are the answer. There's lots of form elements, and here we'll just cover the most popular.
+
+#### Text Fields
+Text fields are just those little one-line text boxes that people can type stuff into.
+
+```HTML
+<input type="text" />
+```
+Notice how there's no closing tag? That's because some tages, like the input tag, don't need a closing tag. You just close it *inside* the tag, hence the ```/``` at the end there.
+
+#### Text Areas
+A text area is that big block of text people can enter multi-line input into.
+```HTML
+<textarea>Default Text</textarea>
+```
+If you want some text to show up by default, just put it inside the tag.
+
+#### Buttons
+Want to have a button? Here's how!
+```HTML
+<input type="button" value="Click Me!" />
+```
+And there's you're button! The ```value``` property dictates what the button text will be.
+
 # What Should I Use to Write Code?
 People are pretty passionate about what code editor they like to use. We'll list a couple of options here, both free and paid, and we'll leave itup to you to try them out and decide (but let's just say you should probably use Sublime). 
 
@@ -134,9 +159,9 @@ Sublime is probably the coolest/hippest code editor out there right now, and tha
 
 On top of all of this, Sublime is probably the fastet
 
-Cost: Sublime technically requires a license, but you can consider it nagware. It has an unlimited free trial where it'll ask you to buy it every 10 saves or so. You can just ignore it. However, if you like it, of course buy a license. Developers gotta eat.
+**Cost**: Sublime technically requires a license, but you can consider it nagware. It has an unlimited free trial where it'll ask you to buy it every 10 saves or so. You can just ignore it. However, if you like it, of course buy a license. Developers gotta eat.
 
-Links
+**Links**
 * [Download](http://www.sublimetext.com/2)
 * [Package Manager](https://sublime.wbond.net/installation#st2)
 * [Fantastic Tutorial Series](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/#tips,_techniques_and_modifications)
@@ -146,7 +171,7 @@ Whereas Sublime is a relatively bare-bones text editort that relies on plugins t
 
 And hey, it's made by the same people that make IntelliJ (arguably the best Java IDE), so you know it's going to be stable and have great developer support.
 
-Cost: $49 ($29 for academic license)
+**Cost**: $49 ($29 for academic license)
 
-Links
+**Links**
 * [Download](http://www.jetbrains.com/webstorm/)
