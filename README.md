@@ -132,6 +132,8 @@ People are pretty passionate about what code editor they like to use. We'll list
 ## Sublime Text 2
 Sublime is probably the coolest/hippest code editor out there right now, and that's one of its biggest advantages. It has a great community and therefore TONS of plugins. Some great default features are multiple cursors, tons of syntax highlighting options, awesome snippet support, and a super-userful built-in build system creator. To manage all of these plugins, you'll definitely want to install the package manager listed below.
 
+On top of all of this, Sublime is probably the fastet
+
 Cost: Sublime technically requires a license, but you can consider it nagware. It has an unlimited free trial where it'll ask you to buy it every 10 saves or so. You can just ignore it. However, if you like it, of course buy a license. Developers gotta eat.
 
 Links
@@ -139,3 +141,12 @@ Links
 * [Package Manager](https://sublime.wbond.net/installation#st2)
 * [Fantastic Tutorial Series](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/#tips,_techniques_and_modifications)
 
+## WebStorm/PHPStorm
+Whereas Sublime is a relatively bare-bones text editort that relies on plugins to give it most of its functionality, WebStorm is a full-blown IDE that is jam-packed with features from the get-go. It probably has the best code-completion of all the web IDE's, including some really great support for things like TypeScript and CoffeeScript. Don't underestimate the power of a good auto-complete. If you get PHPStorm (which is the same as WebStorm + PHP), then you'll get fantastic PHP support as well.
+
+And hey, it's made by the same people that make IntelliJ (arguably the best Java IDE), so you know it's going to be stable and have great developer support.
+
+Cost: $49 ($29 for academic license)
+
+Links
+* [Download](http://www.jetbrains.com/webstorm/)
