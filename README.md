@@ -126,3 +126,16 @@ There may be a point when you realize that you have text whose semantics can't b
 
 You may wonder why you would use a generic tag like this, and what the differences are between ```<div>``` and ```<span>```. Don't worry, all will be made clear in our CSS guide. 
 
+# What Should I Use to Write Code?
+People are pretty passionate about what code editor they like to use. We'll list a couple of options here, both free and paid, and we'll leave itup to you to try them out and decide (but let's just say you should probably use Sublime). 
+
+## Sublime Text 2
+Sublime is probably the coolest/hippest code editor out there right now, and that's one of its biggest advantages. It has a great community and therefore TONS of plugins. Some great default features are multiple cursors, tons of syntax highlighting options, awesome snippet support, and a super-userful built-in build system creator. To manage all of these plugins, you'll definitely want to install the package manager listed below.
+
+Cost: Sublime technically requires a license, but you can consider it nagware. It has an unlimited free trial where it'll ask you to buy it every 10 saves or so. You can just ignore it. However, if you like it, of course buy a license. Developers gotta eat.
+
+Links
+* [Download](http://www.sublimetext.com/2)
+* [Package Manager](https://sublime.wbond.net/installation#st2)
+* [Fantastic Tutorial Series](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/#tips,_techniques_and_modifications)
+
