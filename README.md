@@ -115,6 +115,15 @@ Ah yes, those little blue links, how could we ever forget those? Links let you m
 
 So, we've learned two things here: one, the link tag is ```<a>``` (which stands for 'anchor'), and two, apparently you can put other stuff in the tag too. In this case, we have a property called ```href``` in there. ```href``` tells us what the link points to. In this case, it points to the best Wikipedia page ever written.
 
+### Images!
+Everybody loves pictures. Good thing there's a tag for that!
+
+```HTML
+<img src="img/pic.jpg" />
+```
+
+The big thing here is that ```src``` attribute. This just contains a relative path to the image that you want to display. We recommend that you keep all of your pictures in a folder called ```img``` or ```images```, as it keeps things organized.
+
 ### Tables!
 Do you have tabular data that you want to display in a grid? Then you want a table! Tables have three main tags: ```<table>```, ```<tr>```, ```<td>```, and ```<th>```. Take a look at this example, and then we'll explain afterwards.
 
