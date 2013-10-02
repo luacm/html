@@ -115,6 +115,35 @@ Ah yes, those little blue links, how could we ever forget those? Links let you m
 
 So, we've learned two things here: one, the link tag is ```<a>``` (which stands for 'anchor'), and two, apparently you can put other stuff in the tag too. In this case, we have a property called ```href``` in there. ```href``` tells us what the link points to. In this case, it points to the best Wikipedia page ever written.
 
+### Tables!
+Do you have tabular data that you want to display in a grid? Then you want a table! Tables have three main tags: ```<table>```, ```<tr>```, ```<td>```, and ```<th>```. Take a look at this example, and then we'll explain afterwards.
+
+```HTML
+<table>
+  <tr>
+    <th>Villian</th>
+    <th>Has Spider-Man Beat Them?</th>
+  </tr>
+  <tr>
+    <td>Venom</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Doctor Octopus</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Sandman</td>
+    <td>Yes</td>
+  </tr>
+</table>
+```
+
+This will make a table with the column headings 'Villian' and 'Has Spider-Man Beat Them?' Then, each row will be "Venom | Yes", "Doctor Octopus | Yes", and "Sandman | Yes". Given that info, can you guess what the tags mean? 
+
+```<tr>``` is table row, as it defines a row in the table. ```<th>``` is a table heading, and ```<td>``` is a table data cell. 
+
+Tables have gotten a lot of hate in the web development community over the past few years. That's because they were being heavily misused. Developers were creating entire sites using tables because it was easy to do the layout like that. However, going back to our Web Trifecta, you know that's not a good idea. HTLM defines the semantics of sites, not the appearance. Therefore, tables should only be used for tabular data - NOT for general site layout.
 
 ### Generic Blocks of Text!
 There may be a point when you realize that you have text whose semantics can't be properly captured with an existing tag. In this case, you can use the ```<div>``` tag or the ```<span>``` tag.
